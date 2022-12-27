@@ -97,7 +97,7 @@ h6 {
 # Page Header
 --------------------------------------------------------------*/
 .page-header {
-  padding: 120px 0 60px 0;
+  padding: 120px 0 10px 0;
   min-height: 30vh;
   position: relative;
 }
@@ -672,7 +672,7 @@ h6 {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 250px;
   border-radius: 50%;
   border: 5px solid #474a4d;
   margin: 0 auto;
@@ -1223,8 +1223,17 @@ h6 {
   background: #000;
   background-size: cover;
   position: relative;
-  padding: 140px 0 60px 0;
+  padding: 140px 0 0px 0;
 }
+
+#hero1 {
+  width: 100%;
+  height: calc(100vh - 110px);
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+}
+
 
 .hero h2 {
   margin: 0 0 10px 0;
